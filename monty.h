@@ -64,8 +64,9 @@ void pint_opcd(stack_t **stack, unsigned int line_no);
 void swap_opcd(stack_t **stack, unsigned int line_no);
 void pop_opcd(stack_t **stack, unsigned int line_no);
 void add_opcd(stack_t **stack, unsigned int line_no);
-void sub_opcd(stack_t **stack, unsigned int line_no);
 void nop_opcd(stack_t **stack, unsigned int line_no);
+void sub_opcd(stack_t **stack, unsigned int line_no);
+void mul_opcd(stack_t **stack, unsigned int line_no);
 
 void free_stk(stack_t *stack);
 void clr_stk(stack_t **stack);

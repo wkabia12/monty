@@ -20,6 +20,8 @@ int get_opcds(stack_t **stack, char *args, char *val, int lcount)
 		{"swap", swap_opcd},
 		{"add", add_opcd},
 		{"nop", nop_opcd},
+		{"sub", sub_opcd},
+		{"mul", mul_opcd},
 		{NULL, NULL}
 	};
 
