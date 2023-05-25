@@ -1,6 +1,5 @@
 #include "monty.h"
 int digit;
-
 /**
  * get_opcds - function to handle the opcode
  * @stack: is a stack or queue
@@ -18,6 +17,9 @@ int get_opcds(stack_t **stack, char *args, char *val, int lcount)
 		{"pall", pall_opcd},
 		{"pint", pint_opcd},
 		{"pop", pop_opcd},
+		{"swap", swap_opcd},
+		{"add", add_opcd},
+		{"nop", nop_opcd},
 		{NULL, NULL}
 	};
 

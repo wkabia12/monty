@@ -21,8 +21,8 @@ void err_push(FILE *fd, char *line, stack_t *stack, int lcount)
  * @fd: is a file descriptor
  * @line: is a buffer
  * @stack: is a stack or queue
- * @count: is a line command
- * @item: number
+ * @lcount: is a line command
+ * @val: number
  */
 void err_ins(FILE *fd, char *line, stack_t *stack, char *lcount, int val)
 {

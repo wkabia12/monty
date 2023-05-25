@@ -18,11 +18,10 @@ void get_cmd(char *argv)
 	{
 		fprintf(stderr, "Error: Can't open file %s\n", argv);
 		exit(EXIT_FAILURE);
-		
 	}
 	if (gfile.fd)
 	{
-		while (fgets(gfile.line, MAX , gfile.fd) != NULL)
+		while (fgets(gfile.line, MAX, gfile.fd) != NULL)
 		{
 			lcount++;
 			args = strtok(gfile.line, " \n\t\r");
